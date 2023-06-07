@@ -14,7 +14,7 @@ namespace TestProject1.src.code.page
         public Button addTaskButton = new Button(By.Id("NewItemAddButton"));
         public TextBox editTaskTextBox = new TextBox(By.XPath("//textarea[@id='ItemEditTextbox']"));
         public Button editButton = new Button(By.ClassName("edit"));
-        public Button saveEditedTaskName = new Button(By.XPath("//div[@class='ItemContentDiv UnderEditingItem']//img[@title='Save' and contains(@src, 'save')]"));
+        public Button saveEditedTaskName = new Button(By.XPath("//div[@id='ItemEditDiv']//*[@id=\"ItemEditSubmit\"]"));
 
         public bool TaskNameIsDisplayed(String nameValue)
         {

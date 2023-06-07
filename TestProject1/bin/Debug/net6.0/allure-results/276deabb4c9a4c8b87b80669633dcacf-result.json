@@ -1,0 +1,154 @@
+{
+  "uuid": "f2d3bdb664d0499ab8536f380865cf0d",
+  "historyId": "Update a project in todo.ly",
+  "fullName": "Update a project in todo.ly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-2U5KD5L0"
+    },
+    {
+      "name": "feature",
+      "value": "Create a project feature"
+    }
+  ],
+  "links": [],
+  "name": "Update a project in todo.ly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the page \"todo.ly\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112630179,
+      "stop": 1686112630179
+    },
+    {
+      "name": "And  I login using my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112630179,
+      "stop": 1686112632375
+    },
+    {
+      "name": "Then  I see the project \"My project\" in the Projects list",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112632375,
+      "stop": 1686112632391
+    },
+    {
+      "name": "And  I click on Option button of \"My project\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112632391,
+      "stop": 1686112632447
+    },
+    {
+      "name": "And  I click on Edit button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112632447,
+      "stop": 1686112632484
+    },
+    {
+      "name": "And  I edit the name of the project to \"My project edited\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112632485,
+      "stop": 1686112632568
+    },
+    {
+      "name": "And  I click on SAVE project button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112632568,
+      "stop": 1686112633118
+    },
+    {
+      "name": "Then  I see the project \"My project edited\" in the Projects list",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112633118,
+      "stop": 1686112633133
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686112630179,
+  "stop": 1686112633133
+}

@@ -99,7 +99,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I login using my credentials", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 9
- testRunner.When("I click on the project", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
+ testRunner.When("I click on \"My project edited\" project", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
 #line 10
  testRunner.And("I enter the name \"new task\" in task list", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
@@ -108,7 +108,7 @@ this.ScenarioInitialize(scenarioInfo);
  testRunner.And("I click on \"Add\" task button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 12
- testRunner.And("I see the task \"new task\" created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+ testRunner.Then("I see the task \"new task\" created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 13
  testRunner.And("I click on the task \"new task\" created", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");

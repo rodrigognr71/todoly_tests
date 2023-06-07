@@ -37,9 +37,9 @@ namespace TestProject1.src.StepsDefinitions
         }
 
         [When(@"I enter the name ""([^""]*)""")]
-        public void WhenIEnterTheName(string p0)
+        public void WhenIEnterTheName(string project)
         {
-            leftSite.projectNameTextBox.SetText("REtest");
+            leftSite.projectNameTextBox.SetText(project);
         }
 
         [When(@"I click on ""([^""]*)"" button")]
@@ -49,11 +49,36 @@ namespace TestProject1.src.StepsDefinitions
         }
 
         [Then(@"I see the project ""([^""]*)"" in the Projects list")]
-        public void ThenISeeTheProjectInTheProjectsList(string p0)
+        public void ThenISeeTheProjectInTheProjectsList(string project)
         {
-            Assert.IsTrue(leftSite.ProjectNameIsDisplayed("REtest"),
-                "ERROR!The project was not created. The issue is already reported [ID-5]");
+            Assert.IsTrue(leftSite.ProjectNameIsDisplayed(project),
+                "ERROR!The project was not created.");
         }
 
+        [Then(@"I click on Option button of ""([^""]*)""")]
+        public void ThenIClickOnOptionButton(string project)
+        {
+            leftSite.ClickProjectName(project);
+            leftSite.optionButton.Click();  
+        }
+
+        [Then(@"I click on Edit button")]
+        public void ThenIClickOnEditButton()
+        {
+            leftSite.editButton.Click();
+        }
+
+        [Then(@"I edit the name of the project to ""([^""]*)""")]
+        public void ThenIEditTheNameOfTheProjectTo(string projectNameEdited)
+        {
+            leftSite.projectNameEditedTexBox.SetText(projectNameEdited);
+        }
+
+        [Then(@"I click on SAVE project button")]
+        public void ThenIClickOnSAVEProjectButton()
+        {
+            Thread.Sleep(500);
+            leftSite.saveButton.Click();
+        }
     }
 }

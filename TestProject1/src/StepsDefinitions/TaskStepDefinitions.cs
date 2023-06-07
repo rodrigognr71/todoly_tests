@@ -1,4 +1,7 @@
-﻿using System;
+﻿using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Interactions;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -16,10 +19,10 @@ namespace TestProject1.src.StepsDefinitions
         LeftSite leftSite = new LeftSite();
         TaskSection taskSection = new TaskSection();
 
-        [When(@"I click on the project")]
-        public void WhenIClickOnTheProject()
+        [When(@"I click on ""([^""]*)"" project")]
+        public void WhenIClickOnProject(string project)
         {
-            leftSite.ClickProjectName("REtest");
+            leftSite.ClickProjectName(project);
         }
 
         [When(@"I enter the name ""([^""]*)"" in task list")]
@@ -35,14 +38,14 @@ namespace TestProject1.src.StepsDefinitions
             taskSection.addTaskButton.Click();
         }
 
-        [When(@"I see the task ""([^""]*)"" created")]
+        [Then(@"I see the task ""([^""]*)"" created")]
         public void WhenISeeTheTaskCreated(string task)
         {
             Assert.IsTrue(taskSection.TaskNameIsDisplayed(task), "ERROR!The task was not created");
             Thread.Sleep(1000);
         }
 
-        [When(@"I click on the task ""([^""]*)"" created")]
+        [Then(@"I click on the task ""([^""]*)"" created")]
         public void WhenIClickOnTheTaskCreated(string task)
         {
             taskSection.ClickTaskName(task);
@@ -50,7 +53,7 @@ namespace TestProject1.src.StepsDefinitions
             taskSection.editTaskTextBox.SetText(task + "EDITED");
         }
 
-        [When(@"I click on SAVE button")]
+        [Then(@"I click on SAVE button")]
         public void WhenIClickOnSAVEButton()
         {
             taskSection.saveEditedTaskName.Click();
@@ -62,5 +65,6 @@ namespace TestProject1.src.StepsDefinitions
             Assert.IsTrue(taskSection.TaskNameIsDisplayed(newName), 
                 "ERROR!The task was not edited. The issue is already reported [ID-5]");
         }
+
     }
 }

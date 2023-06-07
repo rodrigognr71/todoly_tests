@@ -1,0 +1,128 @@
+{
+  "uuid": "48983f20955b409690f08f752708735f",
+  "historyId": "Create a project in todo.ly",
+  "fullName": "Create a project in todo.ly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-2U5KD5L0"
+    },
+    {
+      "name": "feature",
+      "value": "Create a project feature"
+    },
+    {
+      "name": "tag",
+      "value": "createProject"
+    }
+  ],
+  "links": [],
+  "name": "Create a project in todo.ly",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the page \"todo.ly\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111581578,
+      "stop": 1686111581589
+    },
+    {
+      "name": "And  I login using my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111581589,
+      "stop": 1686111583736
+    },
+    {
+      "name": "When  I click on \"Add New Project\" button in Project menu",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111583736,
+      "stop": 1686111583772
+    },
+    {
+      "name": "And  I enter the name \"My project\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111583772,
+      "stop": 1686111583903
+    },
+    {
+      "name": "And  I click on \"Add\" button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111583903,
+      "stop": 1686111583939
+    },
+    {
+      "name": "Then  I see the project \"My project\" in the Projects list",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686111583939,
+      "stop": 1686111584271
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686111581575,
+  "stop": 1686111584272
+}

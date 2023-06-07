@@ -1,0 +1,175 @@
+{
+  "uuid": "9c54948e7fb2494aa750a04caa5563d7",
+  "historyId": "Edit a task created in a project",
+  "fullName": "Edit a task created in a project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-2U5KD5L0"
+    },
+    {
+      "name": "feature",
+      "value": "Task feature"
+    },
+    {
+      "name": "tag",
+      "value": "task"
+    }
+  ],
+  "links": [],
+  "name": "Edit a task created in a project",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]",
+    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message)\r\n   at TestProject1.src.StepsDefinitions.TaskStepDefinitions.ThenISeeTheEditedTaskName(String newName) in C:\\Users\\rodry\\Documents\\Automation projects\\Bootcamp Mojix\\TestProject1 - Copy\\TestProject1\\src\\StepsDefinitions\\TaskStepDefinitions.cs:line 65\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the page \"todo.ly\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112117318,
+      "stop": 1686112117318
+    },
+    {
+      "name": "And  I login using my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112117319,
+      "stop": 1686112120186
+    },
+    {
+      "name": "When  I click on \"My project\" project",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112120186,
+      "stop": 1686112120217
+    },
+    {
+      "name": "And  I enter the name \"new task\" in task list",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112120217,
+      "stop": 1686112120294
+    },
+    {
+      "name": "And  I click on \"Add\" task button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112120294,
+      "stop": 1686112120326
+    },
+    {
+      "name": "Then  I see the task \"new task\" created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112120326,
+      "stop": 1686112121535
+    },
+    {
+      "name": "And  I click on the task \"new task\" created",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112121535,
+      "stop": 1686112122653
+    },
+    {
+      "name": "And  I click on SAVE button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112122653,
+      "stop": 1686112122686
+    },
+    {
+      "name": "Then  I see the edited \"task edited\" task name",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686112122686,
+      "stop": 1686112152748
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686112117318,
+  "stop": 1686112152752
+}

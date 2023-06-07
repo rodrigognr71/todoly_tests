@@ -117,11 +117,14 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\selenium-manager\linux\selenium-manager
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\selenium-manager\macos\selenium-manager
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\selenium-manager\windows\selenium-manager.exe
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\specflow.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\TestProject1.deps.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\TestProject1.runtimeconfig.json
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\TestProject1.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\TestProject1.pdb
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Allure.Commons.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\BoDi.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\CsvHelper.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Gherkin.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.DotNet.PlatformAbstractions.dll
@@ -132,6 +135,7 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.TestPlatform.CrossPlatEngine.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.TestPlatform.Utilities.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\MimeTypesMap.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Newtonsoft.Json.dll
@@ -139,6 +143,7 @@ C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\nunit.framework.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\WebDriver.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\TechTalk.SpecFlow.dll
+C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\Allure.SpecFlowPlugin.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\SpecFlow.Internal.Json.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
 C:\Users\rodry\Documents\Automation projects\Bootcamp Mojix\TestProject1 - Copy\TestProject1\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll

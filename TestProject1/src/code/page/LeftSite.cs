@@ -13,6 +13,7 @@ namespace TestProject1.src.code.page
     {
         public Button addNewProjectButton = new Button(By.XPath("//td[text()='Add New Project']"));
         public TextBox projectNameTextBox = new TextBox(By.Id("NewProjNameInput"));
+        public TextBox projectNameEditedTexBox = new TextBox(By.XPath("(//input[@id=\"ItemEditTextbox\"])[1]"));
         public Button addButton = new Button(By.Id("NewProjNameButton"));
 
         public Button subMenuIcon = new Button(By.XPath("//div[contains(@style,'block')]/img"));
@@ -21,6 +22,9 @@ namespace TestProject1.src.code.page
         public Button saveButton = new Button(By.XPath("//td/div/img[@id='ItemEditSubmit']"));
 
         public Button deleteButton = new Button(By.Id("ProjShareMenuDel"));
+        public Button optionButton = new Button(By.XPath("//div[@class=\"LiDiv BaseProjectLiDiv LeftLiDiv ProjectSelected\"]//div[@class=\"ProjItemMenu\"]/img[@title=\"Options\"]"));
+
+
         public bool ProjectNameIsDisplayed(String nameValue)
         {
             Label nameProject = new Label(By.XPath("(//ul[@id=\"mainProjectList\"]/li//td[text()='" + nameValue + "'])[last()]"));
