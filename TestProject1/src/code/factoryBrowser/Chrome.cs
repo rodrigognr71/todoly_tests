@@ -15,7 +15,9 @@ namespace TestProject1.src.code.factoryBrowser
             var chromeOptions = new ChromeOptions();
             Console.WriteLine("setup");
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            chromeOptions.AddArgument("--remote-debugging-port=5000");
+            chromeOptions.AddArguments("--no-sandbox");
+            chromeOptions.AddArguments("--disable-dev-shm-usage");
+            chromeOptions.AddArguments("--remote-debugging-port=12345");
             IWebDriver driver = new ChromeDriver("/usr/bin", chromeOptions);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
