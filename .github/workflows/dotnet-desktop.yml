@@ -31,6 +31,8 @@ jobs:
           sudo apt-get install -y chromium-chromedriver
       - name: Print contents of /usr/bin
         run: ls -al /usr/bin
+      - name: Check port accessibility
+        run: nc -vz localhost 43169
       - name: Install dependencies
         run: dotnet restore
       - name: Build
