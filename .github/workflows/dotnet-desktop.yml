@@ -24,14 +24,15 @@ jobs:
           dotnet-version: ${{ matrix.dotnet-version }}
       - name: Install Google Chrome
         run: |
-          curl -sSL https://chromedriver.storage.googleapis.com/2.46/chromedriver_linux64.zip -o chromedriver.zip
-          unzip chromedriver.zip
-          chmod +x chromedriver
-          export CHROMEDRIVER_PORT=5000
-          sudo mv chromedriver /usr/local/bin/
+          chmod +x ./scripts/InstallChrome.sh
+          ./scripts/InstallChrome.sh  
       - name: Set up Selenium ChromeDriver
         run: |
-          sudo apt-get install -y chromium-chromedriver
+           curl -sSL https://chromedriver.storage.googleapis.com/2.46/chromedriver_linux64.zip -o chromedriver.zip
+           unzip chromedriver.zip
+           chmod +x chromedriver
+           export CHROMEDRIVER_PORT=5000
+           sudo mv chromedriver /usr/local/bin/
       - name: Install dependencies
         run: dotnet restore
       - name: Build
