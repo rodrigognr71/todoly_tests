@@ -29,10 +29,9 @@ jobs:
       - name: Set up Selenium ChromeDriver
         run: |
           sudo apt-get install -y chromium-chromedriver
-      - name: Print contents of /usr/bin
-        run: ls -al /usr/bin
-      - name: Check port accessibility
-        run: nc -vz localhost 43169
+      - name: Set up environment
+        run: |
+          sudo sed -i 's/--port=43169/--port=443/g' /usr/bin/chromedriver
       - name: Install dependencies
         run: dotnet restore
       - name: Build
