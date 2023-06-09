@@ -29,6 +29,8 @@ jobs:
       - name: Set up Selenium ChromeDriver
         run: |
           sudo apt-get install -y chromium-chromedriver
+      - name: Print contents of /usr/bin
+        run: ls -al /usr/bin
       - name: Install dependencies
         run: dotnet restore
       - name: Build
