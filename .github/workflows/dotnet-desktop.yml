@@ -6,7 +6,7 @@ jobs:
   build-and-test:
     env:
       BUILD_CONFIGURATION: Release
-      SOLUTION_NAME: todoly_tests/TestProject1.sln
+      SOLUTION_NAME: TestProject1.sln
       ALLURE_RESULTS: TestProject1/bin/Release/net6.0/allure-results
       GH_PAGES_URL: https://github.com/rodrigognr71/todoly_tests/aquality-selenium-dotnet-template
     name: Run tests and generate Allure Report
@@ -29,7 +29,7 @@ jobs:
       - name: Install dependencies
         run: dotnet restore
       - name: Build
-        run: dotnet test --no-build ${{ env.SOLUTION_NAME }} -c ${{ env.BUILD_CONFIGURATION }}
+        run: dotnet test --no-restore --verbosity normal
       - name: Test
         run: dotnet test --no-restore --verbosity normal
       - name: "Publish test results"
