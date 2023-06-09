@@ -14,7 +14,7 @@ namespace TestProject1.src.code.factoryBrowser
         {
             Console.WriteLine("setup");
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            IWebDriver driver = new ChromeDriver("/usr/bin/chromedriver");
+            IWebDriver driver = new ChromeDriver("/usr/bin");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
             return driver;
