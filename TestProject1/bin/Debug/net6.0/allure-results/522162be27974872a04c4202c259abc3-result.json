@@ -1,5 +1,5 @@
 {
-  "uuid": "077617465e3441e6b778e67801c0fd6a",
+  "uuid": "10e332c50efa4e179fa4d642b67e71bf",
   "historyId": "Update a project in todo.ly",
   "fullName": "Update a project in todo.ly",
   "labels": [
@@ -38,8 +38,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111589041,
-      "stop": 1686111589041
+      "start": 1686277705558,
+      "stop": 1686277705558
     },
     {
       "name": "And  I login using my credentials",
@@ -53,8 +53,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111589041,
-      "stop": 1686111591130
+      "start": 1686277705558,
+      "stop": 1686277709665
     },
     {
       "name": "Then  I see the project \"My project\" in the Projects list",
@@ -68,8 +68,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591130,
-      "stop": 1686111591149
+      "start": 1686277709665,
+      "stop": 1686277709682
     },
     {
       "name": "And  I click on Option button of \"My project\"",
@@ -83,8 +83,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591150,
-      "stop": 1686111591209
+      "start": 1686277709682,
+      "stop": 1686277709744
     },
     {
       "name": "And  I click on Edit button",
@@ -98,8 +98,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591209,
-      "stop": 1686111591240
+      "start": 1686277709744,
+      "stop": 1686277709778
     },
     {
       "name": "And  I edit the name of the project to \"My project edited\"",
@@ -113,8 +113,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591240,
-      "stop": 1686111591332
+      "start": 1686277709779,
+      "stop": 1686277709845
     },
     {
       "name": "And  I click on SAVE project button",
@@ -128,8 +128,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591332,
-      "stop": 1686111591362
+      "start": 1686277709845,
+      "stop": 1686277710381
     },
     {
       "name": "Then  I see the project \"My project edited\" in the Projects list",
@@ -143,12 +143,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111591362,
-      "stop": 1686111591378
+      "start": 1686277710382,
+      "stop": 1686277710702
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1686111589041,
-  "stop": 1686111591378
+  "start": 1686277705558,
+  "stop": 1686277710702
 }

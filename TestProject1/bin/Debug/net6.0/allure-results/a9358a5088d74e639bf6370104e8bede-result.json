@@ -1,5 +1,5 @@
 {
-  "uuid": "2435beaea03c4147944a3fe0431cc7ff",
+  "uuid": "b79e5f448b7d48329dd5a631cf08156f",
   "historyId": "Edit a task created in a project",
   "fullName": "Edit a task created in a project",
   "labels": [
@@ -18,6 +18,14 @@
     {
       "name": "tag",
       "value": "task"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
     }
   ],
   "links": [],
@@ -27,8 +35,8 @@
     "known": false,
     "muted": false,
     "flaky": false,
-    "message": "Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]",
-    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message)\r\n   at TestProject1.src.StepsDefinitions.TaskStepDefinitions.ThenISeeTheEditedTaskName(String newName) in C:\\Users\\rodry\\Documents\\Automation projects\\Bootcamp Mojix\\TestProject1 - Copy\\TestProject1\\src\\StepsDefinitions\\TaskStepDefinitions.cs:line 65\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+    "message": "Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported in my final task of the Manual QA module [ID-5]",
+    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported in my final task of the Manual QA module [ID-5]\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message)\r\n   at TestProject1.src.StepsDefinitions.TaskStepDefinitions.ThenISeeTheEditedTaskName(String newName) in C:\\Users\\rodry\\Documents\\Automation projects\\Bootcamp Mojix\\TestProject1 - Copy\\TestProject1\\src\\StepsDefinitions\\TaskStepDefinitions.cs:line 92\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
   },
   "stage": "finished",
   "steps": [
@@ -44,8 +52,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111229526,
-      "stop": 1686111229526
+      "start": 1686277735025,
+      "stop": 1686277735025
     },
     {
       "name": "And  I login using my credentials",
@@ -59,11 +67,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111229526,
-      "stop": 1686111231635
+      "start": 1686277735025,
+      "stop": 1686277737294
     },
     {
-      "name": "When  I click on \"My project\" project",
+      "name": "When  I click on \"My project edited\" project",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -74,8 +82,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111231635,
-      "stop": 1686111231671
+      "start": 1686277737294,
+      "stop": 1686277737321
     },
     {
       "name": "And  I enter the name \"new task\" in task list",
@@ -89,8 +97,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111231671,
-      "stop": 1686111231748
+      "start": 1686277737321,
+      "stop": 1686277737389
     },
     {
       "name": "And  I click on \"Add\" task button",
@@ -104,8 +112,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111231748,
-      "stop": 1686111231779
+      "start": 1686277737389,
+      "stop": 1686277737422
     },
     {
       "name": "Then  I see the task \"new task\" created",
@@ -119,11 +127,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111231779,
-      "stop": 1686111233060
+      "start": 1686277737422,
+      "stop": 1686277738727
     },
     {
-      "name": "And  I click on the task \"new task\" created",
+      "name": "And  I edit the \"new task\" created",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -134,8 +142,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111233060,
-      "stop": 1686111234169
+      "start": 1686277738727,
+      "stop": 1686277739829
     },
     {
       "name": "And  I click on SAVE button",
@@ -149,8 +157,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111234169,
-      "stop": 1686111234202
+      "start": 1686277739829,
+      "stop": 1686277739862
     },
     {
       "name": "Then  I see the edited \"task edited\" task name",
@@ -164,12 +172,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111234202,
-      "stop": 1686111264332
+      "start": 1686277739862,
+      "stop": 1686277749924
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1686111229526,
-  "stop": 1686111264337
+  "start": 1686277735025,
+  "stop": 1686277749928
 }

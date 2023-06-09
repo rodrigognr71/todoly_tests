@@ -1,5 +1,5 @@
 {
-  "uuid": "7d76afb7cb66445a917d0196adffffc2",
+  "uuid": "a960af576b874057938b1bc4ec9a1a40",
   "historyId": "Create a project in todo.ly",
   "fullName": "Create a project in todo.ly",
   "labels": [
@@ -42,8 +42,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111799673,
-      "stop": 1686111799685
+      "start": 1686277697108,
+      "stop": 1686277697122
     },
     {
       "name": "And  I login using my credentials",
@@ -57,8 +57,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111799685,
-      "stop": 1686111801953
+      "start": 1686277697122,
+      "stop": 1686277699565
     },
     {
       "name": "When  I click on \"Add New Project\" button in Project menu",
@@ -72,8 +72,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111801953,
-      "stop": 1686111801985
+      "start": 1686277699565,
+      "stop": 1686277699600
     },
     {
       "name": "And  I enter the name \"My project\"",
@@ -87,8 +87,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111801985,
-      "stop": 1686111802052
+      "start": 1686277699600,
+      "stop": 1686277699727
     },
     {
       "name": "And  I click on \"Add\" button",
@@ -102,8 +102,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111802052,
-      "stop": 1686111802090
+      "start": 1686277699727,
+      "stop": 1686277699764
     },
     {
       "name": "Then  I see the project \"My project\" in the Projects list",
@@ -117,12 +117,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686111802090,
-      "stop": 1686111802359
+      "start": 1686277699764,
+      "stop": 1686277700038
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1686111799669,
-  "stop": 1686111802360
+  "start": 1686277697099,
+  "stop": 1686277700040
 }

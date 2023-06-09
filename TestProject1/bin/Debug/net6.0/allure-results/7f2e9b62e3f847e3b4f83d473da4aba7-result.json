@@ -1,7 +1,7 @@
 {
-  "uuid": "abca9cfd189b40f2baf04b552bdd2b9f",
-  "historyId": "Edit a task created in a project",
-  "fullName": "Edit a task created in a project",
+  "uuid": "71e9ea122ca84da0867de37fc9126cb1",
+  "historyId": "Delete a task from a project",
+  "fullName": "Delete a task from a project",
   "labels": [
     {
       "name": "thread",
@@ -18,17 +18,23 @@
     {
       "name": "tag",
       "value": "task"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
     }
   ],
   "links": [],
-  "name": "Edit a task created in a project",
-  "status": "failed",
+  "name": "Delete a task from a project",
+  "status": "passed",
   "statusDetails": {
     "known": false,
     "muted": false,
-    "flaky": false,
-    "message": "Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]",
-    "trace": "Microsoft.VisualStudio.TestTools.UnitTesting.AssertFailedException: Assert.IsTrue failed. ERROR!The task was not edited. The issue is already reported [ID-5]\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message, Object[] parameters)\r\n   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition, String message)\r\n   at TestProject1.src.StepsDefinitions.TaskStepDefinitions.ThenISeeTheEditedTaskName(String newName) in C:\\Users\\rodry\\Documents\\Automation projects\\Bootcamp Mojix\\TestProject1 - Copy\\TestProject1\\src\\StepsDefinitions\\TaskStepDefinitions.cs:line 65\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+    "flaky": false
   },
   "stage": "finished",
   "steps": [
@@ -44,8 +50,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112393809,
-      "stop": 1686112393809
+      "start": 1686277715728,
+      "stop": 1686277715728
     },
     {
       "name": "And  I login using my credentials",
@@ -59,8 +65,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112393809,
-      "stop": 1686112396493
+      "start": 1686277715728,
+      "stop": 1686277718144
     },
     {
       "name": "When  I click on \"My project edited\" project",
@@ -74,8 +80,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112396493,
-      "stop": 1686112396527
+      "start": 1686277718144,
+      "stop": 1686277718178
     },
     {
       "name": "And  I enter the name \"new task\" in task list",
@@ -89,8 +95,8 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112396527,
-      "stop": 1686112396608
+      "start": 1686277718178,
+      "stop": 1686277718261
     },
     {
       "name": "And  I click on \"Add\" task button",
@@ -104,11 +110,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112396608,
-      "stop": 1686112396641
+      "start": 1686277718261,
+      "stop": 1686277718296
     },
     {
-      "name": "Then  I see the task \"new task\" created",
+      "name": "And  I click on the task \"new task\"",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -119,11 +125,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112396641,
-      "stop": 1686112397925
+      "start": 1686277718296,
+      "stop": 1686277718697
     },
     {
-      "name": "And  I click on the task \"new task\" created",
+      "name": "And  I click on Option menu of \"new task\"",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -134,11 +140,11 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112397925,
-      "stop": 1686112399039
+      "start": 1686277718697,
+      "stop": 1686277718733
     },
     {
-      "name": "And  I click on SAVE button",
+      "name": "And  I click on Delete button",
       "status": "passed",
       "statusDetails": {
         "known": false,
@@ -149,12 +155,12 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112399039,
-      "stop": 1686112399076
+      "start": 1686277718733,
+      "stop": 1686277719774
     },
     {
-      "name": "Then  I see the edited \"task edited\" task name",
-      "status": "failed",
+      "name": "Then  I see the info message is displayed",
+      "status": "passed",
       "statusDetails": {
         "known": false,
         "muted": false,
@@ -164,12 +170,27 @@
       "steps": [],
       "attachments": [],
       "parameters": [],
-      "start": 1686112399076,
-      "stop": 1686112429152
+      "start": 1686277719774,
+      "stop": 1686277719793
+    },
+    {
+      "name": "And  I see the \"new task\" is deleted",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686277719793,
+      "stop": 1686277729855
     }
   ],
   "attachments": [],
   "parameters": [],
-  "start": 1686112393809,
-  "stop": 1686112429156
+  "start": 1686277715728,
+  "stop": 1686277729856
 }
