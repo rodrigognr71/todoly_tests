@@ -25,7 +25,10 @@ jobs:
       - name: Install Google Chrome
         run: |
           chmod +x ./scripts/InstallChrome.sh
-          ./scripts/InstallChrome.sh             
+          ./scripts/InstallChrome.sh   
+      - name: Set up Selenium ChromeDriver
+        run: |
+          sudo apt-get install -y chromium-chromedriver
       - name: Install dependencies
         run: dotnet restore
       - name: Build
