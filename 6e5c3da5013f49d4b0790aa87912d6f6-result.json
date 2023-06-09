@@ -1,0 +1,130 @@
+{
+  "uuid": "9511bdef3b564d58a43779646ccda355",
+  "historyId": "Create a project in todo.ly",
+  "fullName": "Create a project in todo.ly",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az392-267"
+    },
+    {
+      "name": "feature",
+      "value": "Create a project feature"
+    },
+    {
+      "name": "tag",
+      "value": "createProject"
+    }
+  ],
+  "links": [],
+  "name": "Create a project in todo.ly",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Unable to locate driver with path: /home/runner/work/todoly_tests/todoly_tests/TestProject1/resourxes/driver/chromedriver.exe/chromedriver, for more information on how to install drivers see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/ -> No process is associated with this object.",
+    "trace": "OpenQA.Selenium.WebDriverException: Unable to locate driver with path: /home/runner/work/todoly_tests/todoly_tests/TestProject1/resourxes/driver/chromedriver.exe/chromedriver, for more information on how to install drivers see https://www.selenium.dev/documentation/webdriver/getting_started/install_drivers/\n ---> System.InvalidOperationException: No process is associated with this object.\n   at System.Diagnostics.Process.EnsureState(State state)\n   at System.Diagnostics.Process.get_HasExited()\n   at System.Diagnostics.Process.EnsureState(State state)\n   at System.Diagnostics.Process.get_ExitCode()\n   at OpenQA.Selenium.SeleniumManager.RunCommand(String fileName, String arguments)\n   at OpenQA.Selenium.SeleniumManager.DriverPath(DriverOptions options)\n   at OpenQA.Selenium.DriverFinder.VerifyDriverServicePath(DriverService service, DriverOptions options)\n   --- End of inner exception stack trace ---\n   at OpenQA.Selenium.DriverFinder.VerifyDriverServicePath(DriverService service, DriverOptions options)\n   at OpenQA.Selenium.Chromium.ChromiumDriver..ctor(ChromiumDriverService service, ChromiumOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(ChromeDriverService service, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options, TimeSpan commandTimeout)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory, ChromeOptions options)\n   at OpenQA.Selenium.Chrome.ChromeDriver..ctor(String chromeDriverDirectory)\n   at TestProject1.src.code.factoryBrowser.Chrome.Create() in /home/runner/work/todoly_tests/todoly_tests/TestProject1/src/code/factoryBrowser/Chrome.cs:line 17\n   at TestProject1.src.code.session.Session..ctor() in /home/runner/work/todoly_tests/todoly_tests/TestProject1/src/code/session/Session.cs:line 19\n   at TestProject1.src.code.session.Session.Instance() in /home/runner/work/todoly_tests/todoly_tests/TestProject1/src/code/session/Session.cs:line 27\n   at TestProject1.src.Hooks.Hooks.AfterScenario() in /home/runner/work/todoly_tests/todoly_tests/TestProject1/src/Hooks/Hooks.cs:line 40\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the page \"todo.ly\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279230,
+      "stop": 1686286279237
+    },
+    {
+      "name": "And  I login using my credentials",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279240,
+      "stop": 1686286279240
+    },
+    {
+      "name": "When  I click on \"Add New Project\" button in Project menu",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279240,
+      "stop": 1686286279240
+    },
+    {
+      "name": "And  I enter the name \"My project\"",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279240,
+      "stop": 1686286279240
+    },
+    {
+      "name": "And  I click on \"Add\" button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279240,
+      "stop": 1686286279240
+    },
+    {
+      "name": "Then  I see the project \"My project\" in the Projects list",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686286279240,
+      "stop": 1686286279240
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686286279220,
+  "stop": 1686286279246
+}
