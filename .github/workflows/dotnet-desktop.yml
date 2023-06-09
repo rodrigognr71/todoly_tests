@@ -3,7 +3,13 @@ name: dotnet package
 on: [push]
 
 jobs:
-  build:
+  build-and-test:
+    env:
+      BUILD_CONFIGURATION: Release
+      SOLUTION_NAME: todoly_tests/TestProject1.sln
+      ALLURE_RESULTS: TestProject1/bin/Release/net6.0/allure-results
+      GH_PAGES_URL: https://github.com/rodrigognr71/todoly_tests/aquality-selenium-dotnet-template
+    name: Run tests and generate Allure Report
 
     runs-on: ubuntu-latest
     strategy:
@@ -16,11 +22,10 @@ jobs:
         uses: actions/setup-dotnet@v3
         with:
           dotnet-version: ${{ matrix.dotnet-version }}
-      - name: Set up Docker
-        uses: docker/setup-docker@v1
-      - name: Set up Selenium ChromeDriver
+      - name: Install Google Chrome
         run: |
-          docker run -d -p 4444:4444 selenium/standalone-chrome:latest
+          chmod +x ./scripts/InstallChrome.sh
+          ./scripts/InstallChrome.sh
       - name: Install dependencies
         run: dotnet restore
       - name: Build
