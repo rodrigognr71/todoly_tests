@@ -12,13 +12,15 @@ namespace TestProject1.src.code.factoryBrowser
     {
         public IWebDriver Create()
         {
+            var chromeOptions = new ChromeOptions();
             Console.WriteLine("setup");
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            IWebDriver driver = new ChromeDriver("/usr/bin");
+            chromeOptions.AddArgument("--remote-debugging-port=5000");
+            IWebDriver driver = new ChromeDriver("/usr/bin/chromedriver", chromeOptions);
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
             return driver;
-            
+
         }
     }
 }
