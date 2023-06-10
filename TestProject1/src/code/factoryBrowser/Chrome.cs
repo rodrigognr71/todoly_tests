@@ -11,12 +11,10 @@ namespace TestProject1.src.code.factoryBrowser
     public class Chrome : IBrowser
     {
         public IWebDriver Create()
-        {
-            var chromeOptions = new ChromeOptions();
+        {           
             Console.WriteLine("setup");
             string path = Directory.GetParent(Environment.CurrentDirectory).Parent.Parent.FullName;
-            chromeOptions.AddArguments("--remote-debugging-port=5000");
-            IWebDriver driver = new ChromeDriver("/usr/bin", chromeOptions);
+            IWebDriver driver = new ChromeDriver(path + "resources/driver/chromedriver.exe");
             driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(10);
             driver.Manage().Window.Maximize();
             return driver;

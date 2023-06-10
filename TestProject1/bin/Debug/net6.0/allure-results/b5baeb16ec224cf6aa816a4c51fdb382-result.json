@@ -1,0 +1,196 @@
+{
+  "uuid": "cd4a6b9436b3403d989c4aeb30f8c7f5",
+  "historyId": "Delete a task from a project",
+  "fullName": "Delete a task from a project",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "LAPTOP-2U5KD5L0"
+    },
+    {
+      "name": "feature",
+      "value": "Task feature"
+    },
+    {
+      "name": "tag",
+      "value": "task"
+    },
+    {
+      "name": "tag",
+      "value": "positive"
+    },
+    {
+      "name": "tag",
+      "value": "regression"
+    }
+  ],
+  "links": [],
+  "name": "Delete a task from a project",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I navigate to the page \"todo.ly\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356657829,
+      "stop": 1686356657829
+    },
+    {
+      "name": "And  I login using my credentials",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356657829,
+      "stop": 1686356660013
+    },
+    {
+      "name": "When  I click on \"My project edited\" project",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660013,
+      "stop": 1686356660047
+    },
+    {
+      "name": "And  I enter the name \"new task\" in task list",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660047,
+      "stop": 1686356660127
+    },
+    {
+      "name": "And  I click on \"Add\" task button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660127,
+      "stop": 1686356660160
+    },
+    {
+      "name": "And  I click on the task \"new task\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660160,
+      "stop": 1686356660505
+    },
+    {
+      "name": "And  I click on Option menu of \"new task\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660505,
+      "stop": 1686356660541
+    },
+    {
+      "name": "And  I click on Delete button",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356660541,
+      "stop": 1686356661585
+    },
+    {
+      "name": "Then  I see the info message is displayed",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356661585,
+      "stop": 1686356661602
+    },
+    {
+      "name": "And  I see the \"new task\" is deleted",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686356661602,
+      "stop": 1686356671622
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686356657829,
+  "stop": 1686356671622
+}
