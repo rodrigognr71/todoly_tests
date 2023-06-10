@@ -29,7 +29,6 @@ jobs:
       - name: Set up Selenium ChromeDriver
         run: |
           sudo apt-get install -y chromium-chromedriver
-          sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
       - name: Install dependencies
         run: dotnet restore
       - name: Build
